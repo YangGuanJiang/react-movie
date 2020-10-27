@@ -8,7 +8,7 @@ import Movie from "../Movie/Movie";
 
 const App = () => {
 
-
+    console.log("This is the process.env", process.env.PUBLIC_URL);
     return (
         <BrowserRouter>
             <React.Fragment>
